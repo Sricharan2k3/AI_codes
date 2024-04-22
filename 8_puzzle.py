@@ -38,13 +38,13 @@ def compare(original, shuffled):
 
 def print_function(Node,k):
     if(k==0):
-        print("shifting up")
+        print("shifting-up")
     elif k==1:
-        print("shifting right")
+        print("shifting-right")
     elif k==2:
-        print("shifting down")
+        print("shifting-down")
     else:
-        print("shiffting left")
+        print("shiffting-left")
         
   
     print("shuffled matrix is",Node.shuffled_matrix)
